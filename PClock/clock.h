@@ -8,7 +8,7 @@ class Clock {
 	int hour, minute;
 public:
 	Clock(int _hour = 0, int _minute = 0);
-	void next_time();
+	virtual void next_time();
 	void move_time(int _hour, int _minute);
 	int& getHour();
 	int& getMinute();

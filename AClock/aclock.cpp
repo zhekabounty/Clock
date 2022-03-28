@@ -1,6 +1,7 @@
 #include "aclock.h"
 
 AClock::AClock(int _hour, int _minute, int _second) {
+	time = new Clock(_hour, _minute);
 	move_time(_hour, _minute, _second);
 }
 
